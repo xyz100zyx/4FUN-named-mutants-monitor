@@ -9,7 +9,7 @@
 
 #include "MutantsMonitor.h"
 
-int wmain(int argc, wchar_t* argv[]) {
+int main() {
     _setmode(_fileno(stdout), _O_U16TEXT);
 
     if (!InitializeNtFunctions()) {
